@@ -8,17 +8,33 @@ namespace SimpleCalculator03
 {
     class MyData
     {
-        private  int _x;
-        private  int _y;
-        public int X
+        private float _x;
+        private float _y;
+        public float X
         {
             get { return _x; }
             set { _x = value; }
         }
-        public int Y
+        public float Y
         {
             get { return _y; }
             set { _y = value; }
+        }
+        public float Add()
+        {
+            return X + Y;
+        }
+        public float Less()
+        {
+            return X - Y;
+        }
+        public float aaa()
+        {
+            return X * Y;
+        }
+        public float bbb()
+        {
+            return X / Y;
         }
     }
 }

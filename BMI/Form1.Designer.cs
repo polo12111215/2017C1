@@ -38,9 +38,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(53, 208);
+            this.button1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.Location = new System.Drawing.Point(17, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(124, 55);
             this.button1.TabIndex = 0;
             this.button1.Text = "男生BMI";
             this.button1.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(179, 208);
+            this.button2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button2.Location = new System.Drawing.Point(191, 214);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(124, 55);
             this.button2.TabIndex = 1;
             this.button2.Text = "女生BMI";
             this.button2.UseVisualStyleBackColor = true;
@@ -58,33 +60,37 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 66);
+            this.textBox1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.textBox1.Location = new System.Drawing.Point(191, 72);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(149, 35);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(154, 142);
+            this.textBox2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.textBox2.Location = new System.Drawing.Point(191, 145);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(149, 35);
             this.textBox2.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 69);
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(12, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 12);
+            this.label1.Size = new System.Drawing.Size(173, 27);
             this.label1.TabIndex = 4;
             this.label1.Text = "身高(公尺或公分)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 142);
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(12, 148);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 12);
+            this.label2.Size = new System.Drawing.Size(173, 27);
             this.label2.TabIndex = 5;
             this.label2.Text = "體重(公斤或公克)";
             // 
@@ -92,6 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(449, 358);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -99,8 +106,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "BMI計算器";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -21,7 +21,7 @@ namespace BMI
         }
         private void what(int a)
         {
-
+            
 
             try
             {
@@ -35,47 +35,42 @@ namespace BMI
                     if (_data.kg >= 700000 || _data.high >= 300 || _data.kg <= 0 || _data.high <= 0)
                     {
                         MessageBox.Show("請輸入正常人類的體重或身高");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                        
                     }
  
                     else if (_data.Bmi() < 18.5)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:過輕!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                        
                     }
                     else if (_data.Bmi() >= 18.5 && _data.Bmi() < 24)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:正常!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                        
                     }
                     else if (_data.Bmi() >= 24 && _data.Bmi() < 27)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:過重!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                       
                     }
                     else if (_data.Bmi() >= 27 && _data.Bmi() < 30)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:輕度肥胖!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                        
                     }
                     else if (_data.Bmi() >= 30 && _data.Bmi() < 35)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:中度肥胖!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                        
                     }
                     else if (_data.Bmi() >= 35)
                     {
                         MessageBox.Show("BMI為:" + _data.Bmi().ToString() + "   您的體位為:重度肥胖!!!");
-                        textBox1.Clear();
-                        textBox2.Clear();
+                       
                     }
-                    
+                    textBox1.Clear();
+                    textBox2.Clear();
+
                 }
             }
             catch
